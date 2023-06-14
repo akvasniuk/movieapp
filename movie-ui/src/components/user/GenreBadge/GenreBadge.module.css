@@ -1,0 +1,8 @@
+.genre {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    background: #92FE9D;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}

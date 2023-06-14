@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_card {
+    color: #fff;
+    width: 1260px;
+    height: fit-content;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1260px;
+    background: #00C9FF;
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);
+    background: -webkit-gradient(linear, left top, right top, from(#92FE9D), to(#00C9FF));
+    background: -webkit-linear-gradient(left, #92FE9D, #00C9FF);
+    background: -o-linear-gradient(left, #92FE9D, #00C9FF);
+    background: linear-gradient(to right, #92FE9D, #00C9FF);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.card_left {
+    width: 90%;
+}
+
+.card_details {
+    width: 90%;
+    padding: 30px;
+    margin-top: -25px;
+}
+
+.card_details h1 {
+    font-size: 30px;
+}
+
+.card_right img {
+    height: 390px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card_right {
+    border-radius: 2px;
+}
+
+.card_cat {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PG, .year, .time {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    height: fit-content;
+}
+
+.PG {
+    background: #92FE9D;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.disc {
+    font-weight: 100;
+    line-height: 27px;
+}
+
+span, a {
+    color: darkcyan;
+    display: block;
+    text-decoration: none;
+}
+
+.social-btn {
+    margin-left: -10px;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    padding: 20px;
+    outline: none;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background: #92FE9D;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: 200ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.fa-play-circle {
+    color: #255;
+    font-size: 160px;
+    margin-top: 110px;
+    -webkit-animation: bounce 1.0s -0.4s infinite;
+    animation: bounce 1.0s -0.4s infinite;
+}
+
+.fa-play-circle:hover {
+    color: aqua;
+    animation: bounce 0.4s infinite;
+}
+
+.Follow {
+    width: 50px;
+    height: 50px;
+    bottom: 9px;
+    right: 20px;
+    display: block;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 999;
+}

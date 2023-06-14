@@ -1,0 +1,25 @@
+.company {
+    border-radius: 7px;
+    padding: 14px;
+    flex-basis: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.company img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.img_container {
+    height: fit-content;
+}
+
+.company span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
