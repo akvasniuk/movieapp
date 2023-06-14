@@ -1,13 +1,13 @@
 const prod = {
   url: {
-    API_BASE_URL: 'https://myapp.herokuapp.com',
+    API_BASE_URL: process.env.REACT_APP_API_URL,
     OMDB_BASE_URL: 'https://api.themoviedb.org/3'
   }
 }
 
 const dev = {
   url: {
-    API_BASE_URL: 'http://localhost:8080',
+    API_BASE_URL: process.env.REACT_APP_API_URL,
     OMDB_BASE_URL: 'https://api.themoviedb.org/3'
   }
 }
